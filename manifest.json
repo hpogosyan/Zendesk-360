@@ -51,6 +51,11 @@
       "name": "simple_submission",
       "type": "checkbox",
       "default": false
+    },
+    {
+      "name": "hide_from_agents",
+      "type": "checkbox",
+      "default": false
     }
   ]
 }

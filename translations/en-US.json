@@ -34,6 +34,10 @@
       "time_submission": {
         "label": "Edit time submission",
         "helpText": "Agents can review and edit their time before submitting the ticket."
+      },
+      "hide_from_agents": {
+        "label": "Hide the app from Agents",
+        "helpText": "The app will not be shown to Agents who do not have the 'Admin' role. This also prevents them from being able to see & edit the time upon submission."
       }
     }
   },

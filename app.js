@@ -65,6 +65,12 @@
         this.storage.totalTimeFieldId = parseInt(this.setting('total_time_field_id'), 10);
         this.storage.timeFieldId = parseInt(this.setting('time_field_id'), 10);
       }
+      if (this.setting('hide_from_agents') && this.currentUser().role() !== 'admin') {
+        this.hideFromCurrentUser = true;
+        // hide the app from non-admins
+        this.hide();
+        // change the 'review' setting
+      }
     },
 
     onAppActivated: function(app) {
@@ -95,7 +101,7 @@
     },
 
     onTicketSave: function() {
-      if (this.setting('time_submission')) {
+      if (this.setting('time_submission') && !this.hideFromCurrentUser) {
         return this.promise(function(done, fail) {
           this.saveHookPromiseDone = done;
           this.saveHookPromiseFail = fail;

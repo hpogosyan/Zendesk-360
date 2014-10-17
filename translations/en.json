@@ -89,6 +89,10 @@
           "value": "Prompt agents to simply enter a value in minutes before submitting the ticket",
           "title": "This is the explanation helptext of the simple submission checkbox for the admin who is installing the app"
         }
+      },
+      "hide_from_agents": {
+        "label": "Hide the app from Agents",
+        "helpText": "The app will not be shown to Agents who do not have the 'Admin' role. This also prevents them from being able to see & edit the time upon submission."
       }
     }
   },

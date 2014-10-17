@@ -91,8 +91,14 @@
         }
       },
       "hide_from_agents": {
-        "label": "Hide the app from Agents",
-        "helpText": "The app will not be shown to Agents who do not have the 'Admin' role. This also prevents them from being able to see & edit the time upon submission."
+        "label": {
+          "value": "Hide the app from Agents",
+          "title": "this is bs"
+        },
+        "helpText": {
+          "value": "The app will not be shown to Agents who do not have the 'Admin' role. This also prevents them from being able to see & edit the time upon submission.",
+          "title": "this is bs"
+        }
       }
     }
   },

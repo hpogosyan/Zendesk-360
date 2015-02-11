@@ -7,7 +7,7 @@
       <div class="text-center pull-right">
         {{#if manualPauseResume}}<button class="btn play" title="{{t "views.main.play"}}"><i class="icon icon-time-play active"></i></button>{{/if}}
         {{#if manualPauseResume}}<button class="btn pause" title="{{t "views.main.pause"}}"><i class="icon icon-time-pause"></i></button>{{/if}}
-        {{#if displayReset}}<button class="btn reset" title="{{t "views.main.reset"}}"><i class="icon icon-time-reset"></i></button>{{/if}}
+        {{#if displayReset}}<button class="btn reset" title="{{t "views.main.reset"}}"><i class="icon icon-time-reset"></i></button><button class="btn bill" title="{{t "views.main.bill"}}"><i class="icon-time-bill"></i></button>{{/if}}
       </div>
     </div>
   </div>

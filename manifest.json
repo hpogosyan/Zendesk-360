@@ -1,9 +1,9 @@
 {
-  "name": "Time Tracking",
+  "name": "Cornerstone 360",
   "author": {
-    "name": "Zendesk",
-    "email": "support@zendesk.com",
-    "url": "https://www.zendesk.com"
+    "name": "Cornerstone",
+    "email": "support@cornerstoneist.com",
+    "url": "https://www.cornerstoneist.com"
   },
 
   "defaultLocale": "en",
@@ -11,9 +11,28 @@
   "singleInstall": true,
   "location": [ "new_ticket_sidebar", "ticket_sidebar" ],
   "frameworkVersion": "1.0",
-  "version": "0.2.3",
+  "version": "0.2.7",
+
+  "domainWhitelist": [
+    "cornerstone-360.herokuapp.com",
+    "cornerstoneist.com",
+    "1e395389321.b.passageway.io",
+    "api.cornerstoneist.com",
+    "cornerstone360.zendesk.com",
+    "localhost"
+    ],
 
   "parameters": [
+    {
+      "name": "parse_username",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "parse_password",
+      "type": "password",
+      "required": true
+    },
     {
       "name": "time_field_id",
       "type": "hidden"
@@ -50,7 +69,7 @@
     {
       "name": "simple_submission",
       "type": "checkbox",
-      "default": false
+      "default": true
     }
   ]
 }

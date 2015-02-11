@@ -20,6 +20,26 @@
           "title": "this is the helptext for that previously defined setting"
         }
       },
+      "parse_username": {
+        "label": {
+          "value": "Cornerstone 360 Login",
+          "title": "Cornerstone 360 Login as setup on Parse"
+        },
+        "helpText": {
+          "value": "Enter your username for Cornerstone 360 - Usually name@cornerstoneist.com",
+          "title": "this is the helptext for that previously defined setting"
+        }
+      },
+      "parse_password": {
+        "label": {
+          "value": "Cornerstone 360 Password",
+          "title": "Cornerstone 360 Password as setup on Parse"
+        },
+        "helpText": {
+          "value": "Enter your password for Cornerstone 360",
+          "title": "this is the helptext for that previously defined setting"
+        }
+      },
       "time_object_field_id": {
         "label": {
           "value": "Configuration Field ID",
@@ -50,6 +70,16 @@
           "title": "this is the helptext for that previously defined setting explaining what it does to the admin"
         }
       },
+      /*"billing_enabled": {
+        "label": {
+          "value": "Display billing controls",
+          "title": "This is an app setting allowing the admin to choose if he wants the billing controls allowing the agents to bill the client"
+        },
+        "helpText": {
+          "value": "Agents can manually bill the client.",
+          "title": "this is the helptext for that previously defined setting explaining what it does to the admin"
+        }
+      },*/
       "auto_pause_resume": {
         "label": {
           "value": "Auto pause",
@@ -145,6 +175,10 @@
       "reset": {
         "value": "Reset",
         "title": "Label of the reset button on the app, this will make the timer go back to 00:00"
+      },
+      "bill": {
+        "value": "Bill",
+        "title": "Label of the bill button on the app, this will post the bill to Parse"
       },
       "timelogs": {
         "value": "Timelog",
